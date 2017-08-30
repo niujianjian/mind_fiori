@@ -1,0 +1,291 @@
+[{
+	"Header": "2194795e-035c-4964-a3e5-8e3aacb4e00d",
+	"Guid": "4a4d59ef-5024-40b2-858f-c8e9377bbd42",
+	"NumberInt": "NumberInt 1",
+	"ProdHierarchy": "ProdHierarchy 1",
+	"ProdHierDescr": "ProdHierDescr 1",
+	"ItemNum": 8723.37,
+	"Unit": "Unit 1",
+	"NetValueMan": 1190.57,
+	"Currency": "Currency 1",
+	"ZzconfNote": "ZzconfNote 1",
+	"Zzfld0000f4": "ZZFLD0000F4",
+	"ZzContacter": "ZzContacter 1",
+	"Zzfld0000gg": "Zzfld0000gg 1",
+	"ZzStatusZj": "ZzStatusZj 1",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'4a4d59ef-5024-40b2-858f-c8e9377bbd42')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'4a4d59ef-5024-40b2-858f-c8e9377bbd42')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'4a4d59ef-5024-40b2-858f-c8e9377bbd42')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "c3c465f4-3dd9-4f46-ba25-85f9722c8113",
+	"Guid": "4fb3deea-5cfe-40e1-a952-a6255d540fd4",
+	"NumberInt": "NumberInt 2",
+	"ProdHierarchy": "ProdHierarchy 2",
+	"ProdHierDescr": "ProdHierDescr 2",
+	"ItemNum": 3125.53,
+	"Unit": "Unit 2",
+	"NetValueMan": 2713.5,
+	"Currency": "Currency 2",
+	"ZzconfNote": "ZzconfNote 2",
+	"Zzfld0000f4": "Zzfld0000f4 2",
+	"ZzContacter": "ZzContacter 2",
+	"Zzfld0000gg": "Zzfld0000gg 2",
+	"ZzStatusZj": "ZzStatusZj 2",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'4fb3deea-5cfe-40e1-a952-a6255d540fd4')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'4fb3deea-5cfe-40e1-a952-a6255d540fd4')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'4fb3deea-5cfe-40e1-a952-a6255d540fd4')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "33e58842-492a-4993-b193-938c32146f3c",
+	"Guid": "d1778633-3bb1-4ffe-b94e-3253a4b3a7c0",
+	"NumberInt": "NumberInt 3",
+	"ProdHierarchy": "ProdHierarchy 3",
+	"ProdHierDescr": "ProdHierDescr 3",
+	"ItemNum": 8833.3,
+	"Unit": "Unit 3",
+	"NetValueMan": 5869.51,
+	"Currency": "Currency 3",
+	"ZzconfNote": "ZzconfNote 3",
+	"Zzfld0000f4": "Zzfld0000f4 3",
+	"ZzContacter": "ZzContacter 3",
+	"Zzfld0000gg": "Zzfld0000gg 3",
+	"ZzStatusZj": "ZzStatusZj 3",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'd1778633-3bb1-4ffe-b94e-3253a4b3a7c0')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'd1778633-3bb1-4ffe-b94e-3253a4b3a7c0')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'd1778633-3bb1-4ffe-b94e-3253a4b3a7c0')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "8c205060-2dbd-4e38-9f39-77b651ab6977",
+	"Guid": "3a099e10-3194-42f4-b761-d06e493de486",
+	"NumberInt": "NumberInt 4",
+	"ProdHierarchy": "ProdHierarchy 4",
+	"ProdHierDescr": "ProdHierDescr 4",
+	"ItemNum": 5979.29,
+	"Unit": "Unit 4",
+	"NetValueMan": 7075.99,
+	"Currency": "Currency 4",
+	"ZzconfNote": "ZzconfNote 4",
+	"Zzfld0000f4": "Zzfld0000f4 4",
+	"ZzContacter": "ZzContacter 4",
+	"Zzfld0000gg": "Zzfld0000gg 4",
+	"ZzStatusZj": "ZzStatusZj 4",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'3a099e10-3194-42f4-b761-d06e493de486')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'3a099e10-3194-42f4-b761-d06e493de486')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'3a099e10-3194-42f4-b761-d06e493de486')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "1a586501-28c3-465c-a4bc-9424026d7826",
+	"Guid": "78358235-24d4-4754-af0c-459747f5d29c",
+	"NumberInt": "NumberInt 5",
+	"ProdHierarchy": "ProdHierarchy 5",
+	"ProdHierDescr": "ProdHierDescr 5",
+	"ItemNum": 2033.12,
+	"Unit": "Unit 5",
+	"NetValueMan": 7118.43,
+	"Currency": "Currency 5",
+	"ZzconfNote": "ZzconfNote 5",
+	"Zzfld0000f4": "Zzfld0000f4 5",
+	"ZzContacter": "ZzContacter 5",
+	"Zzfld0000gg": "Zzfld0000gg 5",
+	"ZzStatusZj": "ZzStatusZj 5",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'78358235-24d4-4754-af0c-459747f5d29c')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'78358235-24d4-4754-af0c-459747f5d29c')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'78358235-24d4-4754-af0c-459747f5d29c')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "90615d33-73e5-493b-9490-7092e90f132d",
+	"Guid": "167511cf-326a-46f6-8d8c-147adb621b1a",
+	"NumberInt": "NumberInt 6",
+	"ProdHierarchy": "ProdHierarchy 6",
+	"ProdHierDescr": "ProdHierDescr 6",
+	"ItemNum": 8543.01,
+	"Unit": "Unit 6",
+	"NetValueMan": 5452.42,
+	"Currency": "Currency 6",
+	"ZzconfNote": "ZzconfNote 6",
+	"Zzfld0000f4": "Zzfld0000f4 6",
+	"ZzContacter": "ZzContacter 6",
+	"Zzfld0000gg": "Zzfld0000gg 6",
+	"ZzStatusZj": "ZzStatusZj 6",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'167511cf-326a-46f6-8d8c-147adb621b1a')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'167511cf-326a-46f6-8d8c-147adb621b1a')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'167511cf-326a-46f6-8d8c-147adb621b1a')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "59421c17-7f66-4797-8706-7ec661f7f8ae",
+	"Guid": "9a76b6f9-9f2e-49f0-8505-3bf7c89509fa",
+	"NumberInt": "NumberInt 7",
+	"ProdHierarchy": "ProdHierarchy 7",
+	"ProdHierDescr": "ProdHierDescr 7",
+	"ItemNum": 7021.16,
+	"Unit": "Unit 7",
+	"NetValueMan": 4695.61,
+	"Currency": "Currency 7",
+	"ZzconfNote": "ZzconfNote 7",
+	"Zzfld0000f4": "Zzfld0000f4 7",
+	"ZzContacter": "ZzContacter 7",
+	"Zzfld0000gg": "Zzfld0000gg 7",
+	"ZzStatusZj": "ZzStatusZj 7",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'9a76b6f9-9f2e-49f0-8505-3bf7c89509fa')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'9a76b6f9-9f2e-49f0-8505-3bf7c89509fa')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'9a76b6f9-9f2e-49f0-8505-3bf7c89509fa')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "14de6f81-5dbf-4f54-9e75-5e438320a92b",
+	"Guid": "53334e3f-34bc-4fa5-bc51-5d1f920800ae",
+	"NumberInt": "NumberInt 8",
+	"ProdHierarchy": "ProdHierarchy 8",
+	"ProdHierDescr": "ProdHierDescr 8",
+	"ItemNum": 1436.03,
+	"Unit": "Unit 8",
+	"NetValueMan": 7908.9,
+	"Currency": "Currency 8",
+	"ZzconfNote": "ZzconfNote 8",
+	"Zzfld0000f4": "Zzfld0000f4 8",
+	"ZzContacter": "ZzContacter 8",
+	"Zzfld0000gg": "Zzfld0000gg 8",
+	"ZzStatusZj": "ZzStatusZj 8",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'53334e3f-34bc-4fa5-bc51-5d1f920800ae')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'53334e3f-34bc-4fa5-bc51-5d1f920800ae')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'53334e3f-34bc-4fa5-bc51-5d1f920800ae')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "9054235f-ad0c-4aca-aa41-f4bedc3ec4da",
+	"Guid": "597d0357-7e21-4188-8bd2-1211dc1f43cd",
+	"NumberInt": "NumberInt 9",
+	"ProdHierarchy": "ProdHierarchy 9",
+	"ProdHierDescr": "ProdHierDescr 9",
+	"ItemNum": 7020.73,
+	"Unit": "Unit 9",
+	"NetValueMan": 1305.91,
+	"Currency": "Currency 9",
+	"ZzconfNote": "ZzconfNote 9",
+	"Zzfld0000f4": "Zzfld0000f4 9",
+	"ZzContacter": "ZzContacter 9",
+	"Zzfld0000gg": "Zzfld0000gg 9",
+	"ZzStatusZj": "ZzStatusZj 9",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'597d0357-7e21-4188-8bd2-1211dc1f43cd')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'597d0357-7e21-4188-8bd2-1211dc1f43cd')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'597d0357-7e21-4188-8bd2-1211dc1f43cd')/ITEM_STATESet"
+		}
+	}
+}, {
+	"Header": "afe9f262-11a8-418b-aa35-97201263009f",
+	"Guid": "2c3ddd9d-f8d9-496e-9491-26de77e8aee4",
+	"NumberInt": "NumberInt 10",
+	"ProdHierarchy": "ProdHierarchy 10",
+	"ProdHierDescr": "ProdHierDescr 10",
+	"ItemNum": 2570.9,
+	"Unit": "Unit 10",
+	"NetValueMan": 8288.54,
+	"Currency": "Currency 10",
+	"ZzconfNote": "ZzconfNote 10",
+	"Zzfld0000f4": "Zzfld0000f4 10",
+	"ZzContacter": "ZzContacter 10",
+	"Zzfld0000gg": "Zzfld0000gg 10",
+	"ZzStatusZj": "ZzStatusZj 10",
+	"__metadata": {
+		"uri": "ZOPP_ITEMSet(guid'2c3ddd9d-f8d9-496e-9491-26de77e8aee4')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ITEM"
+	},
+	"ITEM_QTY_STATUS": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'2c3ddd9d-f8d9-496e-9491-26de77e8aee4')/ITEM_QTY_STATUS"
+		}
+	},
+	"ITEM_STATESet": {
+		"__deferred": {
+			"uri": "ZOPP_ITEMSet(guid'2c3ddd9d-f8d9-496e-9491-26de77e8aee4')/ITEM_STATESet"
+		}
+	}
+}]

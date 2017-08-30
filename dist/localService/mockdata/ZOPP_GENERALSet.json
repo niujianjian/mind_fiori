@@ -1,0 +1,161 @@
+[{
+	"icon": "icon 1",
+	"info": "info 1",
+	"infostate": "infostate 1",
+	"number": "number 1",
+	"numberdigits": "numberdigits 1",
+	"numberfactor": "numberfactor 1",
+	"numberstate": "numberstate 1",
+	"numberUnit": "numberUnit 1",
+	"statearrow": "statearrow 1",
+	"subtitle": "subtitle 1",
+	"title": "title 1",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%201')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 2",
+	"info": "info 2",
+	"infostate": "infostate 2",
+	"number": "number 2",
+	"numberdigits": "numberdigits 2",
+	"numberfactor": "numberfactor 2",
+	"numberstate": "numberstate 2",
+	"numberUnit": "numberUnit 2",
+	"statearrow": "statearrow 2",
+	"subtitle": "subtitle 2",
+	"title": "title 2",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%202')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 3",
+	"info": "info 3",
+	"infostate": "infostate 3",
+	"number": "number 3",
+	"numberdigits": "numberdigits 3",
+	"numberfactor": "numberfactor 3",
+	"numberstate": "numberstate 3",
+	"numberUnit": "numberUnit 3",
+	"statearrow": "statearrow 3",
+	"subtitle": "subtitle 3",
+	"title": "title 3",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%203')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 4",
+	"info": "info 4",
+	"infostate": "infostate 4",
+	"number": "number 4",
+	"numberdigits": "numberdigits 4",
+	"numberfactor": "numberfactor 4",
+	"numberstate": "numberstate 4",
+	"numberUnit": "numberUnit 4",
+	"statearrow": "statearrow 4",
+	"subtitle": "subtitle 4",
+	"title": "title 4",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%204')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 5",
+	"info": "info 5",
+	"infostate": "infostate 5",
+	"number": "number 5",
+	"numberdigits": "numberdigits 5",
+	"numberfactor": "numberfactor 5",
+	"numberstate": "numberstate 5",
+	"numberUnit": "numberUnit 5",
+	"statearrow": "statearrow 5",
+	"subtitle": "subtitle 5",
+	"title": "title 5",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%205')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 6",
+	"info": "info 6",
+	"infostate": "infostate 6",
+	"number": "number 6",
+	"numberdigits": "numberdigits 6",
+	"numberfactor": "numberfactor 6",
+	"numberstate": "numberstate 6",
+	"numberUnit": "numberUnit 6",
+	"statearrow": "statearrow 6",
+	"subtitle": "subtitle 6",
+	"title": "title 6",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%206')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 7",
+	"info": "info 7",
+	"infostate": "infostate 7",
+	"number": "number 7",
+	"numberdigits": "numberdigits 7",
+	"numberfactor": "numberfactor 7",
+	"numberstate": "numberstate 7",
+	"numberUnit": "numberUnit 7",
+	"statearrow": "statearrow 7",
+	"subtitle": "subtitle 7",
+	"title": "title 7",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%207')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 8",
+	"info": "info 8",
+	"infostate": "infostate 8",
+	"number": "number 8",
+	"numberdigits": "numberdigits 8",
+	"numberfactor": "numberfactor 8",
+	"numberstate": "numberstate 8",
+	"numberUnit": "numberUnit 8",
+	"statearrow": "statearrow 8",
+	"subtitle": "subtitle 8",
+	"title": "title 8",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%208')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 9",
+	"info": "info 9",
+	"infostate": "infostate 9",
+	"number": "number 9",
+	"numberdigits": "numberdigits 9",
+	"numberfactor": "numberfactor 9",
+	"numberstate": "numberstate 9",
+	"numberUnit": "numberUnit 9",
+	"statearrow": "statearrow 9",
+	"subtitle": "subtitle 9",
+	"title": "title 9",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%209')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}, {
+	"icon": "icon 10",
+	"info": "info 10",
+	"infostate": "infostate 10",
+	"number": "number 10",
+	"numberdigits": "numberdigits 10",
+	"numberfactor": "numberfactor 10",
+	"numberstate": "numberstate 10",
+	"numberUnit": "numberUnit 10",
+	"statearrow": "statearrow 10",
+	"subtitle": "subtitle 10",
+	"title": "title 10",
+	"__metadata": {
+		"uri": "ZOPP_GENERALSet('icon%2010')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GENERAL"
+	}
+}]
