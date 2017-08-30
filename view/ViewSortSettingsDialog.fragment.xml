@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog id="viewSortSettingsDialog" confirm="onConfirmViewSortSettingsDialog" >
+		<sortItems>
+			<ViewSettingsItem text="{i18n>expectEndDate}" key="1" selected="true" />
+			<ViewSettingsItem text="{i18n>zzfld00001gDate}" key="2" />
+			<ViewSettingsItem text="{i18n>netValueMan}" key="3" />
+			<ViewSettingsItem text="{i18n>partnerName}" key="4" />
+			<!--<ViewSettingsItem text="{i18n>netValueMan}" key="5" />-->
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

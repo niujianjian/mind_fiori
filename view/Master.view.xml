@@ -1,0 +1,64 @@
+<mvc:View controllerName="com.mindray.oppprt.controller.Master" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+	xmlns="sap.m" xmlns:semantic="sap.m.semantic">
+	<semantic:MasterPage id="page" title="{masterView>/title}" navButtonPress="onNavBack" showNavButton="true">
+		<semantic:subHeader>
+			<Bar id="headerBar">
+				<contentMiddle>
+					<SearchField id="searchField" showRefreshButton="{= !${device>/support/touch} }" tooltip="{i18n>masterSearchTooltip}" width="100%"
+						search="onSearch"></SearchField>
+				</contentMiddle>
+			</Bar>
+		</semantic:subHeader>
+		<semantic:content>
+			<PullToRefresh id="pullToRefresh" visible="{device>/support/touch}" refresh="onRefresh"/>
+			<!-- For client side filtering add this to the items attribute:  parameters: {operationMode: 'Client'}}" -->
+			<List id="list"   
+				items="{ path: '/ZOPP_GET_LISTSet', sorter: { path: 'ExpectEnd', descending: false }, groupHeaderFactory: '.createGroupHeader' }"
+				busyIndicatorDelay="{masterView>/delay}" noDataText="{masterView>/noDataText}"
+				mode="{= ${device>/system/phone} ? 'None' : 'SingleSelectMaster'}" growing="true" growingScrollToLoad="true" growingThreshold="10"
+				updateFinished="onUpdateFinished" selectionChange="onSelectionChange">
+				<infoToolbar>
+					<Toolbar active="true" id="filterBar" visible="{masterView>/isFilterBarVisible}" press="onOpenViewSettings">
+						<Title id="filterBarLabel" text="{masterView>/filterBarLabel}"/>
+					</Toolbar>
+				</infoToolbar>
+				<items>
+					<ObjectListItem id="objectListItem" type="{= ${device>/system/phone} ? 'Active' : 'Inactive'}" press="onSelectionChange" title="{Description}"
+						number="{ path: 'NetValueMan', formatter: '.formatter.currencyValue' }" numberUnit="{i18n>currency}" markFavorite="{= ${CollectFlag} !== '' ? true:false}" showMarkers="true">
+						<attributes>
+							<ObjectAttribute
+								text="{i18n>expectEnd}:{path:'ExpectEnd', type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'yyyy.MM.dd', strictParsing: true , UTC: true}}"/>
+							<ObjectAttribute
+								text="{i18n>zzfld00001g}:{path:'Zzfld00001g', type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'yyyy.MM.dd', strictParsing: true , UTC: true}}"/>
+							<ObjectAttribute text="{i18n>objectId}:{ObjectId}" class="myColor1"/>
+						</attributes>
+						<firstStatus>
+							<ObjectStatus text="{Overdue}" state="Error"/>
+						</firstStatus>
+						<secondStatus >
+							<ObjectStatus text="{CurrPhaseT} {StatUserT} {Probability}%"/>
+						</secondStatus >
+					</ObjectListItem>
+				</items>
+			</List>
+		</semantic:content>
+		
+		<semantic:sort>
+			<semantic:SortAction id="sort" press="onOpenSortViewSettings"/>
+		</semantic:sort>
+		
+		<semantic:filter>
+			<semantic:FilterAction id="filter" press="onOpenViewSettings"/>
+		</semantic:filter>
+		
+		<semantic:addAction>
+			<semantic:AddAction id="addButton" enabled="{appView>/addEnabled}" press="onAdd"/>
+		</semantic:addAction>
+		<!--<semantic:group>-->
+		<!--	<semantic:GroupSelect id="group" selectedKey="{masterView>/groupBy}" change="onGroup">-->
+		<!--		<core:Item id="masterGroupNone" key="None" text="{i18n>masterGroupNone}"/>-->
+		<!--		<core:Item id="masterGroup1" key="NetValueMan" text="{i18n>masterGroup1}"/>-->
+		<!--	</semantic:GroupSelect>-->
+		<!--</semantic:group>-->
+	</semantic:MasterPage>
+</mvc:View>

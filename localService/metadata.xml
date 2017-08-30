@@ -1,0 +1,431 @@
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZSALE_ODATA_01_SRV" xml:lang="zh" sap:schema-version="1">
+			<EntityType Name="Subscription" sap:semantics="subscriptions" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="Sub. ID" sap:creatable="false" sap:updatable="false"
+					sap:filterable="false"/>
+				<Property Name="user" Type="Edm.String" MaxLength="12" m:FC_TargetPath="SyndicationAuthorName" m:FC_KeepInContent="false" sap:label="用户名"
+					sap:creatable="false" sap:filterable="false"/>
+				<Property Name="updated" Type="Edm.DateTime" Precision="0" m:FC_TargetPath="SyndicationUpdated" m:FC_KeepInContent="false" sap:label="时戳"
+					sap:creatable="false" sap:filterable="false"/>
+				<Property Name="title" Type="Edm.String" MaxLength="255" m:FC_TargetPath="SyndicationTitle" m:FC_KeepInContent="false" sap:label="Title"
+					sap:filterable="false"/>
+				<Property Name="deliveryAddress" Type="Edm.String" sap:label="Delivery Address" sap:filterable="false"/>
+				<Property Name="persistNotifications" Type="Edm.Boolean" sap:label="Persist Notification" sap:filterable="false"/>
+				<Property Name="collection" Type="Edm.String" MaxLength="40" sap:label="Collection" sap:filterable="false"/>
+				<Property Name="filter" Type="Edm.String" sap:label="Filter" sap:filterable="false"/>
+				<Property Name="select" Type="Edm.String" MaxLength="255" sap:label="Select" sap:filterable="false"/>
+				<Property Name="changeType" Type="Edm.String" MaxLength="30" sap:label="Change Type"/>
+			</EntityType>
+			<EntityType Name="Notification" sap:semantics="notifications" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="ID"/>
+				</Key>
+				<Property Name="ID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="Notification ID"/>
+				<Property Name="collection" Type="Edm.String" MaxLength="40" sap:label="Collection"/>
+				<Property Name="title" Type="Edm.String" m:FC_TargetPath="SyndicationTitle" m:FC_KeepInContent="false" sap:label="Notif. Text"/>
+				<Property Name="updated" Type="Edm.DateTime" Precision="0" m:FC_TargetPath="SyndicationUpdated" m:FC_KeepInContent="false" sap:label="时戳"/>
+				<Property Name="changeType" Type="Edm.String" MaxLength="30" sap:label="Change Type"/>
+				<Property Name="entriesOfInterest" Type="Edm.Int32" sap:label="No. of Entries"/>
+				<Property Name="recipient" Type="Edm.String" MaxLength="112" sap:label="Recipient" sap:creatable="false" sap:updatable="false"/>
+			</EntityType>
+			<EntityType Name="ZOPP_HEADER" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Guid"/>
+				</Key>
+				<Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="商机GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ObjectId" Type="Edm.String" MaxLength="10" sap:unicode="false" sap:label="商机号" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Description" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="商机名称" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld00002a" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="销售组" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Source" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="商机来源" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="CurrPhase" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="商机阶段" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Probability" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="预估赢率" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="StatUser" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:label="商机状态" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Memo" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="备注" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ExpectEnd" Type="Edm.DateTime" Precision="8" sap:unicode="false" sap:label="预计签单日期" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld00001g" Type="Edm.DateTime" Precision="8" sap:unicode="false" sap:label="预计安装日期" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="NetValueMan" Type="Edm.Decimal" Precision="15" Scale="2" sap:unicode="false" sap:label="预估金额" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Currency" Type="Edm.String" MaxLength="5" sap:unicode="false" sap:label="货币" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzprodLine" Type="Edm.String" MaxLength="2" sap:unicode="false" sap:label="产品线" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Partner" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="客户" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="PartnerT" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="客户描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ZOPP_ITEM" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Guid"/>
+				</Key>
+				<Property Name="Header" Type="Edm.Guid" sap:unicode="false" sap:label="商机GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="行项目GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="NumberInt" Type="Edm.String" MaxLength="10" sap:unicode="false" sap:label="行项目编号" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ProdHierarchy" Type="Edm.String" MaxLength="20" sap:unicode="false" sap:label="产品层次" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ProdHierDescr" Type="Edm.String" MaxLength="80" sap:unicode="false" sap:label="机型" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ItemNum" Type="Edm.Decimal" Precision="13" Scale="3" sap:unicode="false" sap:label="数量" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Unit" Type="Edm.String" MaxLength="3" sap:unicode="false" sap:label="销售单位" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="NetValueMan" Type="Edm.Decimal" Precision="15" Scale="2" sap:unicode="false" sap:label="金额" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Currency" Type="Edm.String" MaxLength="5" sap:unicode="false" sap:label="货币" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzconfNote" Type="Edm.String" MaxLength="200" sap:unicode="false" sap:label="配置说明" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld0000f4" Type="Edm.String" MaxLength="4" sap:unicode="false" sap:label="所在科室" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzContacter" Type="Edm.String" MaxLength="6" sap:unicode="false" sap:label="联系人" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld0000gg" Type="Edm.String" MaxLength="20" sap:unicode="false" sap:label="联系电话" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzStatusZj" Type="Edm.String" MaxLength="4" sap:unicode="false" sap:label="装机状态" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzSdtype" Type="Edm.String" MaxLength="4" sap:unicode="false" sap:label="销售类型" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<NavigationProperty Name="ITEM_QTY_STATUS" Relationship="ZSALE_ODATA_01_SRV.ItemToStatus" FromRole="FromRole_ItemToStatus"
+					ToRole="ToRole_ItemToStatus"/>
+				<NavigationProperty Name="ITEM_STATESet" Relationship="ZSALE_ODATA_01_SRV.ItemToState" FromRole="FromRole_ItemToState"
+					ToRole="ToRole_ItemToState"/>
+			</EntityType>
+			<EntityType Name="ZOPP_PARTNER" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="PartnerFct"/>
+				</Key>
+				<Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="商机GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="PartnerFct" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="合作伙伴功能" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="PartnerNo1" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="合伙伙伴BP号" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="McName1" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="合伙伙伴名称" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="SmtpAddr" Type="Edm.String" Nullable="false" MaxLength="241" sap:unicode="false" sap:label="邮箱地址" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="TelNumber" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="联系电话" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ZOPP_ANALYSIS" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Guid"/>
+				</Key>
+				<Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="商机GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Listcode" Type="Edm.String" Nullable="false" MaxLength="14" sap:unicode="false" sap:label="丢单原因" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld00006b" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="成交厂家" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld00004u" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="成交厂家产品" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld00004t" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="成家厂家渠道商" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld0000b8" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="2" sap:unicode="false" sap:label="成交金额"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Currency" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:label="货币" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ZOPP_GET_LIST" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Guid"/>
+				</Key>
+				<Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="商机GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ObjectId" Type="Edm.String" MaxLength="10" sap:unicode="false" sap:label="商机编号" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Description" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="商机名称" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="CurrPhase" Type="Edm.String" MaxLength="3" sap:unicode="false" sap:label="商机阶段" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="CurrPhaseT" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="商机阶段" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="StatUser" Type="Edm.String" MaxLength="5" sap:unicode="false" sap:label="状态" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="StatUserT" Type="Edm.String" MaxLength="30" sap:unicode="false" sap:label="商机状态" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Probability" Type="Edm.String" MaxLength="3" sap:unicode="false" sap:label="预估赢率" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ExpectEnd" Type="Edm.DateTime" Precision="8" sap:unicode="false" sap:label="预计签单日期" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zzfld00001g" Type="Edm.DateTime" Precision="8" sap:unicode="false" sap:label="预计安装日期" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="PartnerNo2" Type="Edm.String" MaxLength="32" sap:unicode="false" sap:label="合作伙伴编号" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="NetValueMan" Type="Edm.Decimal" Precision="15" Scale="2" sap:unicode="false" sap:label="商机金额" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Currency" Type="Edm.String" MaxLength="5" sap:unicode="false" sap:label="货币" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Overdue" Type="Edm.String" MaxLength="10" sap:unicode="false" sap:label="逾期类型" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Backup1" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Backup2" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Backup3" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="CollectFlag" Type="Edm.String" MaxLength="1" sap:unicode="false" sap:label="是否收藏" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<NavigationProperty Name="ZOPP_ITEMSet" Relationship="ZSALE_ODATA_01_SRV.ListToItem" FromRole="FromRole_ListToItem"
+					ToRole="ToRole_ListToItem"/>
+				<NavigationProperty Name="ZOPP_PARTNERSet" Relationship="ZSALE_ODATA_01_SRV.ListToPartner" FromRole="FromRole_ListToPartner"
+					ToRole="ToRole_ListToPartner"/>
+				<NavigationProperty Name="ZOPP_ANALYSIS" Relationship="ZSALE_ODATA_01_SRV.ListToAnalysis" FromRole="FromRole_ListToAnalysis"
+					ToRole="ToRole_ListToAnalysis"/>
+				<NavigationProperty Name="ZOPP_HEADER" Relationship="ZSALE_ODATA_01_SRV.ListToHeader" FromRole="FromRole_ListToHeader"
+					ToRole="ToRole_ListToHeader"/>
+			</EntityType>
+			<EntityType Name="STATUS_DROP" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Key"/>
+				</Key>
+				<Property Name="Key" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="KEY" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Value" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="VALUE" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ZOPP_COLLECT" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Bname"/>
+					<PropertyRef Name="Guid"/>
+				</Key>
+				<Property Name="Bname" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="用户名" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="对象 GUID" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ZOPP_GENERAL" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="icon"/>
+				</Key>
+				<Property Name="icon" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="info" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="infostate" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="number" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="numberdigits" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="numberfactor" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="numberstate" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="numberUnit" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="statearrow" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="subtitle" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="title" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="描述" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="SH_PROD_HIER" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="HierarchyId"/>
+					<PropertyRef Name="ProductId"/>
+				</Key>
+				<Property Name="HierarchyId" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="层次标识" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/>
+				<Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="产品 ID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/>
+				<Property Name="Price" Type="Edm.Decimal" Nullable="false" Precision="15" Scale="2" sap:unicode="false" sap:label="价格(万元)"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="SalesGroup" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="销售组" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="SH_PARTNER" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Partner"/>
+				</Key>
+				<Property Name="Partner" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="业务伙伴" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="NameOrg1" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="名称 1" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ITEM_QTY_STATUS" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="OppGuidH"/>
+					<PropertyRef Name="OppGuidI"/>
+				</Key>
+				<Property Name="OppGuidH" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="对象 GUID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="OppGuidI" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="对象 GUID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzStatusZj" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="装机状态" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ZzNumZj" Type="Edm.Int16" Nullable="false" sap:unicode="false" sap:label="装机数量" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<EntityType Name="ITEM_STATE" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="OppGuidH"/>
+					<PropertyRef Name="OppGuidI"/>
+				</Key>
+				<Property Name="OppGuidH" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="对象 GUID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="OppGuidI" Type="Edm.Guid" Nullable="false" sap:unicode="false" sap:label="对象 GUID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="产品 ID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+				<Property Name="Zz0010" Type="Edm.DateTime" Nullable="false" Precision="8" sap:unicode="false" sap:label="安装日期" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+			</EntityType>
+			<Association Name="ListToAnalysis" sap:content-version="1">
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_GET_LIST" Multiplicity="0..1" Role="FromRole_ListToAnalysis"/>
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS" Multiplicity="0..1" Role="ToRole_ListToAnalysis"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ListToAnalysis">
+						<PropertyRef Name="Guid"/>
+					</Principal>
+					<Dependent Role="ToRole_ListToAnalysis">
+						<PropertyRef Name="Guid"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="ListToPartner" sap:content-version="1">
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_GET_LIST" Multiplicity="0..1" Role="FromRole_ListToPartner"/>
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_PARTNER" Multiplicity="*" Role="ToRole_ListToPartner"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ListToPartner">
+						<PropertyRef Name="Guid"/>
+					</Principal>
+					<Dependent Role="ToRole_ListToPartner">
+						<PropertyRef Name="Guid"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="ListToItem" sap:content-version="1">
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_GET_LIST" Multiplicity="0..1" Role="FromRole_ListToItem"/>
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_ITEM" Multiplicity="*" Role="ToRole_ListToItem"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ListToItem">
+						<PropertyRef Name="Guid"/>
+					</Principal>
+					<Dependent Role="ToRole_ListToItem">
+						<PropertyRef Name="Header"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="ListToHeader" sap:content-version="1">
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_GET_LIST" Multiplicity="0..1" Role="FromRole_ListToHeader"/>
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_HEADER" Multiplicity="0..1" Role="ToRole_ListToHeader"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ListToHeader">
+						<PropertyRef Name="Guid"/>
+					</Principal>
+					<Dependent Role="ToRole_ListToHeader">
+						<PropertyRef Name="Guid"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="ItemToStatus" sap:content-version="1">
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_ITEM" Multiplicity="0..1" Role="FromRole_ItemToStatus"/>
+				<End Type="ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS" Multiplicity="0..1" Role="ToRole_ItemToStatus"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ItemToStatus">
+						<PropertyRef Name="Guid"/>
+					</Principal>
+					<Dependent Role="ToRole_ItemToStatus">
+						<PropertyRef Name="OppGuidI"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="ItemToState" sap:content-version="1">
+				<End Type="ZSALE_ODATA_01_SRV.ZOPP_ITEM" Multiplicity="0..1" Role="FromRole_ItemToState"/>
+				<End Type="ZSALE_ODATA_01_SRV.ITEM_STATE" Multiplicity="*" Role="ToRole_ItemToState"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ItemToState">
+						<PropertyRef Name="Guid"/>
+					</Principal>
+					<Dependent Role="ToRole_ItemToState">
+						<PropertyRef Name="OppGuidI"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="ZSALE_ODATA_01_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+				<EntitySet Name="SubscriptionCollection" EntityType="ZSALE_ODATA_01_SRV.Subscription" sap:content-version="1"/>
+				<EntitySet Name="NotificationCollection" EntityType="ZSALE_ODATA_01_SRV.Notification" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:addressable="false" sap:content-version="1"/>
+				<EntitySet Name="ZOPP_HEADERSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_HEADER" sap:searchable="true" sap:requires-filter="true"
+					sap:content-version="1"/>
+				<EntitySet Name="ZOPP_ITEMSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_ITEM" sap:searchable="true" sap:requires-filter="true"
+					sap:content-version="1"/>
+				<EntitySet Name="ZOPP_PARTNERSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_PARTNER" sap:searchable="true" sap:requires-filter="true"
+					sap:content-version="1"/>
+				<EntitySet Name="ZOPP_ANALYSISSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS" sap:searchable="true" sap:requires-filter="true"
+					sap:content-version="1"/>
+				<EntitySet Name="ZOPP_GET_LISTSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_GET_LIST" sap:searchable="true" sap:requires-filter="true"
+					sap:content-version="1"/>
+				<EntitySet Name="STATUS_DROPSet" EntityType="ZSALE_ODATA_01_SRV.STATUS_DROP" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="ZOPP_COLLECTSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_COLLECT" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="ZOPP_GENERALSet" EntityType="ZSALE_ODATA_01_SRV.ZOPP_GENERAL" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="SH_PROD_HIERSet" EntityType="ZSALE_ODATA_01_SRV.SH_PROD_HIER" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="SH_PARTNERSet" EntityType="ZSALE_ODATA_01_SRV.SH_PARTNER" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="ITEM_QTY_STATUSSet" EntityType="ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+				<EntitySet Name="ITEM_STATESet" EntityType="ZSALE_ODATA_01_SRV.ITEM_STATE" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:pageable="false" sap:content-version="1"/>
+				<AssociationSet Name="ListToItemSet" Association="ZSALE_ODATA_01_SRV.ListToItem" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="ZOPP_GET_LISTSet" Role="FromRole_ListToItem"/>
+					<End EntitySet="ZOPP_ITEMSet" Role="ToRole_ListToItem"/>
+				</AssociationSet>
+				<AssociationSet Name="ListToPartnerSet" Association="ZSALE_ODATA_01_SRV.ListToPartner" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="ZOPP_GET_LISTSet" Role="FromRole_ListToPartner"/>
+					<End EntitySet="ZOPP_PARTNERSet" Role="ToRole_ListToPartner"/>
+				</AssociationSet>
+				<AssociationSet Name="ListToAnalysisSet" Association="ZSALE_ODATA_01_SRV.ListToAnalysis" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="ZOPP_GET_LISTSet" Role="FromRole_ListToAnalysis"/>
+					<End EntitySet="ZOPP_ANALYSISSet" Role="ToRole_ListToAnalysis"/>
+				</AssociationSet>
+				<AssociationSet Name="ItemToStatusSet" Association="ZSALE_ODATA_01_SRV.ItemToStatus" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="ZOPP_ITEMSet" Role="FromRole_ItemToStatus"/>
+					<End EntitySet="ITEM_QTY_STATUSSet" Role="ToRole_ItemToStatus"/>
+				</AssociationSet>
+				<AssociationSet Name="ListToHeaderSet" Association="ZSALE_ODATA_01_SRV.ListToHeader" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="ZOPP_GET_LISTSet" Role="FromRole_ListToHeader"/>
+					<End EntitySet="ZOPP_HEADERSet" Role="ToRole_ListToHeader"/>
+				</AssociationSet>
+				<AssociationSet Name="ItemToStateSet" Association="ZSALE_ODATA_01_SRV.ItemToState" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="ZOPP_ITEMSet" Role="FromRole_ItemToState"/>
+					<End EntitySet="ITEM_STATESet" Role="ToRole_ItemToState"/>
+				</AssociationSet>
+			</EntityContainer>
+			<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self"
+				href="http://fioridev.mindray.com/sap/opu/odata/sap/ZSALE_ODATA_01_SRV/$metadata"/>
+			<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version"
+				href="http://fioridev.mindray.com/sap/opu/odata/sap/ZSALE_ODATA_01_SRV/$metadata"/>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

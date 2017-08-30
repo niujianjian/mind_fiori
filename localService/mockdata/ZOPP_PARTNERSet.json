@@ -1,0 +1,111 @@
+[{
+	"Guid": "2194795e-035c-4964-a3e5-8e3aacb4e00d",
+	"PartnerFct": "PARTNER",
+	"PartnerNo1": "PartnerNo1 1",
+	"McName1": "McName1 1",
+	"SmtpAddr": "SmtpAddr 1",
+	"TelNumber": "TelNumber 1",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%201')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "f2b154a5-d5ef-422c-bb5a-f6553c46ce99",
+	"PartnerFct": "PartnerFct 2",
+	"PartnerNo1": "PartnerNo1 2",
+	"McName1": "McName1 2",
+	"SmtpAddr": "SmtpAddr 2",
+	"TelNumber": "TelNumber 2",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%202')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "fa3574cb-a9a0-4f1b-bfb7-c1ab04f9d0c8",
+	"PartnerFct": "PartnerFct 3",
+	"PartnerNo1": "PartnerNo1 3",
+	"McName1": "McName1 3",
+	"SmtpAddr": "SmtpAddr 3",
+	"TelNumber": "TelNumber 3",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%203')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "e4bbc07b-8808-437e-86ae-dc70e2cfe567",
+	"PartnerFct": "PartnerFct 4",
+	"PartnerNo1": "PartnerNo1 4",
+	"McName1": "McName1 4",
+	"SmtpAddr": "SmtpAddr 4",
+	"TelNumber": "TelNumber 4",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%204')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "2a700a2c-69d0-429f-b840-5cca0d216186",
+	"PartnerFct": "PartnerFct 5",
+	"PartnerNo1": "PartnerNo1 5",
+	"McName1": "McName1 5",
+	"SmtpAddr": "SmtpAddr 5",
+	"TelNumber": "TelNumber 5",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%205')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "9dc63413-e1b2-40dc-a7e9-15b6a278b6e4",
+	"PartnerFct": "PartnerFct 6",
+	"PartnerNo1": "PartnerNo1 6",
+	"McName1": "McName1 6",
+	"SmtpAddr": "SmtpAddr 6",
+	"TelNumber": "TelNumber 6",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%206')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "75d37321-ddca-46ca-8879-f8f1865919f5",
+	"PartnerFct": "PartnerFct 7",
+	"PartnerNo1": "PartnerNo1 7",
+	"McName1": "McName1 7",
+	"SmtpAddr": "SmtpAddr 7",
+	"TelNumber": "TelNumber 7",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%207')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "6272ccc2-e12f-4c88-a420-718f00920d8a",
+	"PartnerFct": "PartnerFct 8",
+	"PartnerNo1": "PartnerNo1 8",
+	"McName1": "McName1 8",
+	"SmtpAddr": "SmtpAddr 8",
+	"TelNumber": "TelNumber 8",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%208')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "937c138e-4d53-47c7-b97c-a0474afdbcfc",
+	"PartnerFct": "PartnerFct 9",
+	"PartnerNo1": "PartnerNo1 9",
+	"McName1": "McName1 9",
+	"SmtpAddr": "SmtpAddr 9",
+	"TelNumber": "TelNumber 9",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%209')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}, {
+	"Guid": "8fc1a6b9-da5c-4248-b4aa-c6ca532f5023",
+	"PartnerFct": "PartnerFct 10",
+	"PartnerNo1": "PartnerNo1 10",
+	"McName1": "McName1 10",
+	"SmtpAddr": "SmtpAddr 10",
+	"TelNumber": "TelNumber 10",
+	"__metadata": {
+		"uri": "ZOPP_PARTNERSet('PartnerFct%2010')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_PARTNER"
+	}
+}]

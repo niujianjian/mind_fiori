@@ -1,0 +1,431 @@
+[{
+	"Guid": "2194795e-035c-4964-a3e5-8e3aacb4e00d",
+	"ObjectId": "ObjectId 1",
+	"Description": "Description 1",
+	"CurrPhase": "CurrPhase 1",
+	"CurrPhaseT": "CurrPhaseT 1",
+	"StatUser": "StatUser 1",
+	"StatUserT": "StatUserT 1",
+	"Probability": "Probability 1",
+	"ExpectEnd": "/Date(1108907700000)/",
+	"Zzfld00001g": "/Date(1506606900000)/",
+	"PartnerNo2": "PartnerNo2 1",
+	"NetValueMan": 3248.75,
+	"Currency": "Currency 1",
+	"Overdue": "Overdue 1",
+	"Backup1": "Backup1 1",
+	"Backup2": "Backup2 1",
+	"Backup3": "Backup3 1",
+	"CollectFlag": "CollectFlag 1",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'2194795e-035c-4964-a3e5-8e3aacb4e00d')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'2194795e-035c-4964-a3e5-8e3aacb4e00d')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'2194795e-035c-4964-a3e5-8e3aacb4e00d')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'2194795e-035c-4964-a3e5-8e3aacb4e00d')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'2194795e-035c-4964-a3e5-8e3aacb4e00d')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "c3c465f4-3dd9-4f46-ba25-85f9722c8113",
+	"ObjectId": "ObjectId 2",
+	"Description": "Description 2",
+	"CurrPhase": "CurrPhase 2",
+	"CurrPhaseT": "CurrPhaseT 2",
+	"StatUser": "StatUser 2",
+	"StatUserT": "StatUserT 2",
+	"Probability": "Probability 2",
+	"ExpectEnd": "/Date(1199800500000)/",
+	"Zzfld00001g": "/Date(1328709300000)/",
+	"PartnerNo2": "PartnerNo2 2",
+	"NetValueMan": 6316.4,
+	"Currency": "Currency 2",
+	"Overdue": "Overdue 2",
+	"Backup1": "Backup1 2",
+	"Backup2": "Backup2 2",
+	"Backup3": "Backup3 2",
+	"CollectFlag": "CollectFlag 2",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'c3c465f4-3dd9-4f46-ba25-85f9722c8113')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'c3c465f4-3dd9-4f46-ba25-85f9722c8113')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'c3c465f4-3dd9-4f46-ba25-85f9722c8113')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'c3c465f4-3dd9-4f46-ba25-85f9722c8113')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'c3c465f4-3dd9-4f46-ba25-85f9722c8113')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "9f52a516-23f9-4daf-baf8-0f3288ce578d",
+	"ObjectId": "ObjectId 3",
+	"Description": "Description 3",
+	"CurrPhase": "CurrPhase 3",
+	"CurrPhaseT": "CurrPhaseT 3",
+	"StatUser": "StatUser 3",
+	"StatUserT": "StatUserT 3",
+	"Probability": "Probability 3",
+	"ExpectEnd": "/Date(963323700000)/",
+	"Zzfld00001g": "/Date(1404136500000)/",
+	"PartnerNo2": "PartnerNo2 3",
+	"NetValueMan": 4173.68,
+	"Currency": "Currency 3",
+	"Overdue": "Overdue 3",
+	"Backup1": "Backup1 3",
+	"Backup2": "Backup2 3",
+	"Backup3": "Backup3 3",
+	"CollectFlag": "CollectFlag 3",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'9f52a516-23f9-4daf-baf8-0f3288ce578d')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'9f52a516-23f9-4daf-baf8-0f3288ce578d')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'9f52a516-23f9-4daf-baf8-0f3288ce578d')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'9f52a516-23f9-4daf-baf8-0f3288ce578d')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'9f52a516-23f9-4daf-baf8-0f3288ce578d')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "1449bb7c-2096-46b4-b359-43236a624851",
+	"ObjectId": "ObjectId 4",
+	"Description": "Description 4",
+	"CurrPhase": "CurrPhase 4",
+	"CurrPhaseT": "CurrPhaseT 4",
+	"StatUser": "StatUser 4",
+	"StatUserT": "StatUserT 4",
+	"Probability": "Probability 4",
+	"ExpectEnd": "/Date(1138629300000)/",
+	"Zzfld00001g": "/Date(1318514100000)/",
+	"PartnerNo2": "PartnerNo2 4",
+	"NetValueMan": 9963.35,
+	"Currency": "Currency 4",
+	"Overdue": "Overdue 4",
+	"Backup1": "Backup1 4",
+	"Backup2": "Backup2 4",
+	"Backup3": "Backup3 4",
+	"CollectFlag": "CollectFlag 4",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'1449bb7c-2096-46b4-b359-43236a624851')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'1449bb7c-2096-46b4-b359-43236a624851')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'1449bb7c-2096-46b4-b359-43236a624851')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'1449bb7c-2096-46b4-b359-43236a624851')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'1449bb7c-2096-46b4-b359-43236a624851')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "e087df36-ba78-4042-9bb7-8eeadec41d66",
+	"ObjectId": "ObjectId 5",
+	"Description": "Description 5",
+	"CurrPhase": "CurrPhase 5",
+	"CurrPhaseT": "CurrPhaseT 5",
+	"StatUser": "StatUser 5",
+	"StatUserT": "StatUserT 5",
+	"Probability": "Probability 5",
+	"ExpectEnd": "/Date(1347112500000)/",
+	"Zzfld00001g": "/Date(1236174900000)/",
+	"PartnerNo2": "PartnerNo2 5",
+	"NetValueMan": 3444.52,
+	"Currency": "Currency 5",
+	"Overdue": "Overdue 5",
+	"Backup1": "Backup1 5",
+	"Backup2": "Backup2 5",
+	"Backup3": "Backup3 5",
+	"CollectFlag": "CollectFlag 5",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'e087df36-ba78-4042-9bb7-8eeadec41d66')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'e087df36-ba78-4042-9bb7-8eeadec41d66')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'e087df36-ba78-4042-9bb7-8eeadec41d66')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'e087df36-ba78-4042-9bb7-8eeadec41d66')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'e087df36-ba78-4042-9bb7-8eeadec41d66')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "67783e49-dee0-4057-9fb5-3c517d50839f",
+	"ObjectId": "ObjectId 6",
+	"Description": "Description 6",
+	"CurrPhase": "CurrPhase 6",
+	"CurrPhaseT": "CurrPhaseT 6",
+	"StatUser": "StatUser 6",
+	"StatUserT": "StatUserT 6",
+	"Probability": "Probability 6",
+	"ExpectEnd": "/Date(1495288500000)/",
+	"Zzfld00001g": "/Date(1498658100000)/",
+	"PartnerNo2": "PartnerNo2 6",
+	"NetValueMan": 1959.1,
+	"Currency": "Currency 6",
+	"Overdue": "Overdue 6",
+	"Backup1": "Backup1 6",
+	"Backup2": "Backup2 6",
+	"Backup3": "Backup3 6",
+	"CollectFlag": "CollectFlag 6",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'67783e49-dee0-4057-9fb5-3c517d50839f')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'67783e49-dee0-4057-9fb5-3c517d50839f')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'67783e49-dee0-4057-9fb5-3c517d50839f')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'67783e49-dee0-4057-9fb5-3c517d50839f')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'67783e49-dee0-4057-9fb5-3c517d50839f')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "99b80412-75ca-4273-9fbf-15195d8a816d",
+	"ObjectId": "ObjectId 7",
+	"Description": "Description 7",
+	"CurrPhase": "CurrPhase 7",
+	"CurrPhaseT": "CurrPhaseT 7",
+	"StatUser": "StatUser 7",
+	"StatUserT": "StatUserT 7",
+	"Probability": "Probability 7",
+	"ExpectEnd": "/Date(1162216500000)/",
+	"Zzfld00001g": "/Date(1549115700000)/",
+	"PartnerNo2": "PartnerNo2 7",
+	"NetValueMan": 3035.52,
+	"Currency": "Currency 7",
+	"Overdue": "Overdue 7",
+	"Backup1": "Backup1 7",
+	"Backup2": "Backup2 7",
+	"Backup3": "Backup3 7",
+	"CollectFlag": "CollectFlag 7",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'99b80412-75ca-4273-9fbf-15195d8a816d')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'99b80412-75ca-4273-9fbf-15195d8a816d')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'99b80412-75ca-4273-9fbf-15195d8a816d')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'99b80412-75ca-4273-9fbf-15195d8a816d')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'99b80412-75ca-4273-9fbf-15195d8a816d')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "780c11a0-965f-4818-a0e3-5d6ebcc91633",
+	"ObjectId": "ObjectId 8",
+	"Description": "Description 8",
+	"CurrPhase": "CurrPhase 8",
+	"CurrPhaseT": "CurrPhaseT 8",
+	"StatUser": "StatUser 8",
+	"StatUserT": "StatUserT 8",
+	"Probability": "Probability 8",
+	"ExpectEnd": "/Date(1036331700000)/",
+	"Zzfld00001g": "/Date(1341842100000)/",
+	"PartnerNo2": "PartnerNo2 8",
+	"NetValueMan": 2533.18,
+	"Currency": "Currency 8",
+	"Overdue": "Overdue 8",
+	"Backup1": "Backup1 8",
+	"Backup2": "Backup2 8",
+	"Backup3": "Backup3 8",
+	"CollectFlag": "CollectFlag 8",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'780c11a0-965f-4818-a0e3-5d6ebcc91633')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'780c11a0-965f-4818-a0e3-5d6ebcc91633')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'780c11a0-965f-4818-a0e3-5d6ebcc91633')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'780c11a0-965f-4818-a0e3-5d6ebcc91633')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'780c11a0-965f-4818-a0e3-5d6ebcc91633')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "f4dbfbeb-021f-422b-855c-48dbdf5ef618",
+	"ObjectId": "ObjectId 9",
+	"Description": "Description 9",
+	"CurrPhase": "CurrPhase 9",
+	"CurrPhaseT": "CurrPhaseT 9",
+	"StatUser": "StatUser 9",
+	"StatUserT": "StatUserT 9",
+	"Probability": "Probability 9",
+	"ExpectEnd": "/Date(1499608500000)/",
+	"Zzfld00001g": "/Date(1394805300000)/",
+	"PartnerNo2": "PartnerNo2 9",
+	"NetValueMan": 6515.05,
+	"Currency": "Currency 9",
+	"Overdue": "Overdue 9",
+	"Backup1": "Backup1 9",
+	"Backup2": "Backup2 9",
+	"Backup3": "Backup3 9",
+	"CollectFlag": "CollectFlag 9",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'f4dbfbeb-021f-422b-855c-48dbdf5ef618')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'f4dbfbeb-021f-422b-855c-48dbdf5ef618')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'f4dbfbeb-021f-422b-855c-48dbdf5ef618')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'f4dbfbeb-021f-422b-855c-48dbdf5ef618')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'f4dbfbeb-021f-422b-855c-48dbdf5ef618')/ZOPP_PARTNERSet"
+		}
+	}
+}, {
+	"Guid": "bf6e572f-81f7-4655-a9ff-4120d1a4c89c",
+	"ObjectId": "ObjectId 10",
+	"Description": "Description 10",
+	"CurrPhase": "CurrPhase 10",
+	"CurrPhaseT": "CurrPhaseT 10",
+	"StatUser": "StatUser 10",
+	"StatUserT": "StatUserT 10",
+	"Probability": "Probability 10",
+	"ExpectEnd": "/Date(1303048500000)/",
+	"Zzfld00001g": "/Date(956930100000)/",
+	"PartnerNo2": "PartnerNo2 10",
+	"NetValueMan": 827.49,
+	"Currency": "Currency 10",
+	"Overdue": "Overdue 10",
+	"Backup1": "Backup1 10",
+	"Backup2": "Backup2 10",
+	"Backup3": "Backup3 10",
+	"CollectFlag": "CollectFlag 10",
+	"__metadata": {
+		"uri": "ZOPP_GET_LISTSet(guid'bf6e572f-81f7-4655-a9ff-4120d1a4c89c')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_GET_LIST"
+	},
+	"ZOPP_HEADER": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'bf6e572f-81f7-4655-a9ff-4120d1a4c89c')/ZOPP_HEADER"
+		}
+	},
+	"ZOPP_ITEMSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'bf6e572f-81f7-4655-a9ff-4120d1a4c89c')/ZOPP_ITEMSet"
+		}
+	},
+	"ZOPP_ANALYSIS": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'bf6e572f-81f7-4655-a9ff-4120d1a4c89c')/ZOPP_ANALYSIS"
+		}
+	},
+	"ZOPP_PARTNERSet": {
+		"__deferred": {
+			"uri": "ZOPP_GET_LISTSet(guid'bf6e572f-81f7-4655-a9ff-4120d1a4c89c')/ZOPP_PARTNERSet"
+		}
+	}
+}]

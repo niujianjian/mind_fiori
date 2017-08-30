@@ -1,0 +1,71 @@
+[{
+	"Bname": "Bname 1",
+	"Guid": "a2ebbb9c-f472-4259-a7f4-f6eda2ce53a9",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%201',Guid=guid'a2ebbb9c-f472-4259-a7f4-f6eda2ce53a9')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 2",
+	"Guid": "3af9da77-eae5-4d90-b616-da1203ce94f3",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%202',Guid=guid'3af9da77-eae5-4d90-b616-da1203ce94f3')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 3",
+	"Guid": "f1b42791-2a64-402e-911c-2d3d865a59c8",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%203',Guid=guid'f1b42791-2a64-402e-911c-2d3d865a59c8')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 4",
+	"Guid": "85623baf-b89a-4bb3-ae64-df9a58c23107",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%204',Guid=guid'85623baf-b89a-4bb3-ae64-df9a58c23107')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 5",
+	"Guid": "9dfe8839-f7c1-4907-b2f6-967a28ec03a3",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%205',Guid=guid'9dfe8839-f7c1-4907-b2f6-967a28ec03a3')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 6",
+	"Guid": "71ee318f-d63e-4d6d-9902-caea83b37146",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%206',Guid=guid'71ee318f-d63e-4d6d-9902-caea83b37146')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 7",
+	"Guid": "31296e00-4f57-45eb-b825-9087bdcdfa94",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%207',Guid=guid'31296e00-4f57-45eb-b825-9087bdcdfa94')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 8",
+	"Guid": "6de60560-2d38-4e91-a472-43a4199994f2",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%208',Guid=guid'6de60560-2d38-4e91-a472-43a4199994f2')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 9",
+	"Guid": "328468c3-e85e-462e-bb77-52f1e544138a",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%209',Guid=guid'328468c3-e85e-462e-bb77-52f1e544138a')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}, {
+	"Bname": "Bname 10",
+	"Guid": "44357784-9c5a-4c10-9509-1c474e61a781",
+	"__metadata": {
+		"uri": "ZOPP_COLLECTSet(Bname='Bname%2010',Guid=guid'44357784-9c5a-4c10-9509-1c474e61a781')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_COLLECT"
+	}
+}]

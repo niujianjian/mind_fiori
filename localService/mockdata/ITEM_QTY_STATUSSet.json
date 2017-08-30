@@ -1,0 +1,91 @@
+[{
+	"OppGuidH": "7f569e2c-81ad-4728-ba08-1d8e69e9fc69",
+	"OppGuidI": "8f4ac1c4-bf87-425b-9797-f19949684e08",
+	"ZzStatusZj": "ZzStatusZj 1",
+	"ZzNumZj": 4965,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'7f569e2c-81ad-4728-ba08-1d8e69e9fc69',OppGuidI=guid'8f4ac1c4-bf87-425b-9797-f19949684e08')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "2629d31c-c2a7-4970-97d9-9d4ec00af714",
+	"OppGuidI": "b67f044f-0a54-49a0-9cf3-9619d4122085",
+	"ZzStatusZj": "ZzStatusZj 2",
+	"ZzNumZj": 3021,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'2629d31c-c2a7-4970-97d9-9d4ec00af714',OppGuidI=guid'b67f044f-0a54-49a0-9cf3-9619d4122085')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "d76f19ee-01c1-409d-b9c7-e765e69b4ca2",
+	"OppGuidI": "26db4088-afd0-456e-81e7-e7f15ca3c8d0",
+	"ZzStatusZj": "ZzStatusZj 3",
+	"ZzNumZj": 5520,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'd76f19ee-01c1-409d-b9c7-e765e69b4ca2',OppGuidI=guid'26db4088-afd0-456e-81e7-e7f15ca3c8d0')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "998389d7-0222-4102-9188-a96d7a437006",
+	"OppGuidI": "ba86f5ea-180d-43a7-a68a-66cdfa594cc4",
+	"ZzStatusZj": "ZzStatusZj 4",
+	"ZzNumZj": 6160,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'998389d7-0222-4102-9188-a96d7a437006',OppGuidI=guid'ba86f5ea-180d-43a7-a68a-66cdfa594cc4')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "b028696f-e051-403c-ae31-67276e77963a",
+	"OppGuidI": "70ac2b93-698b-4f6f-97f1-718935d5339b",
+	"ZzStatusZj": "ZzStatusZj 5",
+	"ZzNumZj": 4649,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'b028696f-e051-403c-ae31-67276e77963a',OppGuidI=guid'70ac2b93-698b-4f6f-97f1-718935d5339b')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "f48338b4-6694-4e29-93e6-7b00e17d887b",
+	"OppGuidI": "e326ae63-8df8-46c1-a225-9c670bf5ece5",
+	"ZzStatusZj": "ZzStatusZj 6",
+	"ZzNumZj": 1081,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'f48338b4-6694-4e29-93e6-7b00e17d887b',OppGuidI=guid'e326ae63-8df8-46c1-a225-9c670bf5ece5')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "07bdbc71-93a2-4c91-b1dc-56f4d7251cce",
+	"OppGuidI": "15feb112-3266-4838-8fa5-c14df2d3f956",
+	"ZzStatusZj": "ZzStatusZj 7",
+	"ZzNumZj": 9517,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'07bdbc71-93a2-4c91-b1dc-56f4d7251cce',OppGuidI=guid'15feb112-3266-4838-8fa5-c14df2d3f956')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "1dc86973-d463-40cc-acae-87f44fa3dc5c",
+	"OppGuidI": "e967fdfb-7c83-4b8f-80b4-4bef02659818",
+	"ZzStatusZj": "ZzStatusZj 8",
+	"ZzNumZj": 2720,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'1dc86973-d463-40cc-acae-87f44fa3dc5c',OppGuidI=guid'e967fdfb-7c83-4b8f-80b4-4bef02659818')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "343a2a8a-2128-4bc8-988a-3d130378fc49",
+	"OppGuidI": "d42744ec-5197-433d-a191-d5481086eeb1",
+	"ZzStatusZj": "ZzStatusZj 9",
+	"ZzNumZj": 5091,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'343a2a8a-2128-4bc8-988a-3d130378fc49',OppGuidI=guid'd42744ec-5197-433d-a191-d5481086eeb1')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}, {
+	"OppGuidH": "89266b04-ea34-43ca-9ae3-01c6ebf1b63a",
+	"OppGuidI": "7f778e63-6362-479a-8384-e67abfe3cc73",
+	"ZzStatusZj": "ZzStatusZj 10",
+	"ZzNumZj": 1597,
+	"__metadata": {
+		"uri": "ITEM_QTY_STATUSSet(OppGuidH=guid'89266b04-ea34-43ca-9ae3-01c6ebf1b63a',OppGuidI=guid'7f778e63-6362-479a-8384-e67abfe3cc73')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_QTY_STATUS"
+	}
+}]

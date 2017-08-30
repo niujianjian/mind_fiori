@@ -1,0 +1,95 @@
+<mvc:View controllerName="com.mindray.oppprt.controller.ProductDetail" xmlns:f="sap.ui.layout.form" xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>producDetailTitle}"
+		busy="{productDetailView>/busy}" busyIndicatorDelay="{productDetailView>/delay}">
+		<semantic:content>
+			<ObjectHeader id="objectHeader" title="{ProdHierDescr}" number="{ path: 'NetValueMan', formatter: '.formatter.currencyValue' }"
+				numberUnit="{i18n>currency}">
+				<ObjectAttribute text="{i18n>itemNum}:{path: 'ItemNum',type: 'sap.ui.model.type.Integer'}{i18n>itemNumUnit}"/>
+			</ObjectHeader>
+			<f:Form id="FormDisplay2" editable="false" title="{i18n>zzProductHeader}">
+				<f:layout>
+					<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+						emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer>
+						<f:formElements>
+							<f:FormElement label="{i18n>zzconfNote}">
+								<f:fields>
+									<Text text="{ZzconfNote}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="{i18n>zzfld0000f4}">
+								<f:fields>
+									<!--<Text text="{ZzNumZj}"/>-->
+									<Select enabled="false" forceSelection="false" selectedKey="{Zzfld0000f4}" autoAdjustWidth="false"
+										items="{path: '/STATUS_DROPSet', templateShareable:true,filters:[{path : 'Key',operator : 'EQ',value1: 'ZZFLD0000F4'}]}">
+										<core:Item key="{Key}" text="{Value}"/>
+									</Select>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="{i18n>zzContacter}">
+								<f:fields>
+									<Text text="{ZzContacter}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="{i18n>zzfld0000gg}">
+								<f:fields>
+									<Text text="{Zzfld0000gg}"/>
+								</f:fields>
+							</f:FormElement>
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+			<f:Form id="FormDisplay1" editable="false" title="{i18n>zzStatusNumZj}">
+				<f:layout>
+					<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+						emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer>
+						<f:formElements>
+							<f:FormElement label="{i18n>zzStatusZj}">
+								<f:fields>
+									<Text text="{ZzStatusZj}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="{i18n>zzNumZj}">
+								<f:fields>
+									<Text text="{ZzNumZj}"/>
+								</f:fields>
+							</f:FormElement>
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+			<Table id="lineItemsList" width="auto" items="{path:'ITEM_STATESet',templateShareable:true}"
+				noDataText="{i18n>productdetailItemTableNoDataText}" busyIndicatorDelay="{productDetailView>/lineItemTableDelay}"
+				class="sapUiNoMarginTop sapUiNoMarginBottom sapUiNoMarginBegin sapUiNoMarginEnd">
+				<headerToolbar>
+					<Toolbar>
+						<Title text="{i18n>zzItemZJ}" level="H2"/>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column>
+						<Text text="{i18n>productId}"/>
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true">
+						<Text text="{i18n>zz0010}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<ObjectIdentifier title="{ProductId}"/>
+							<Text text="{path: 'Zz0010', type: 'sap.ui.model.type.Date', formatOptions: {pattern: 'yyyy.MM.dd', strictParsing: true , UTC: true}}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+	</semantic:DetailPage>
+</mvc:View>

@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog title="Products" class="sapUiPopupWithPadding" items="{path: '/SH_PROD_HIERSet'}" search="_productValueHelpSearch"
+		confirm="_productValueHelpClose">
+		 <!--cancel="_productValueHelpClose"-->
+		<StandardListItem iconDensityAware="false"  iconInset="false" title="{ProductId}" description="{Price}" info="{HierarchyId}"/>
+	</SelectDialog>
+</core:FragmentDefinition>

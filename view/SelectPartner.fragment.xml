@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout">
+	<Dialog title="{i18n>fctTitle}">
+		<RadioButtonGroup id="radioButton_id">
+			<buttons>
+				<RadioButton id="ZMR00005" text="{i18n>ZMR00005Text}"/>
+				<RadioButton id="ZMR00006" text="{i18n>ZMR00006Text}"/>
+				<RadioButton id="ZMR00007" text="{i18n>ZMR00007Text}"/>
+			</buttons>
+		</RadioButtonGroup>
+		<buttons>
+			<Button enabled="true" id="Okbtn" press="onConfirmDialog" type="Emphasized" text="{i18n>confirm}"/>
+			<Button enabled="true" id="Cancelbtn" press="onDialogClose" type="Emphasized" text="{i18n>cancel}"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,67 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog id="viewSettingsDialog" confirm="onConfirmViewSettingsDialog" resetFilters="onViewSettingsDialogResetFilters">
+		<filterItems>
+			<ViewSettingsFilterItem id="StatUser" text="{i18n>statUser}" key="statUser">
+				<items>
+					<ViewSettingsItem text="{i18n>statUser1}" key="statUser1" />
+					<ViewSettingsItem text="{i18n>statUser2}" key="statUser2" />
+					<ViewSettingsItem text="{i18n>statUser3}" key="statUser3" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+			<ViewSettingsFilterItem id="ZzStatusZj" text="{i18n>zzStatusZj}" key="ZzStatusZj">
+				<items>
+					<ViewSettingsItem text="{i18n>zzStatusZj1}" key="zzStatusZj1" />
+					<ViewSettingsItem text="{i18n>zzStatusZj2}" key="zzStatusZj2" />
+					<ViewSettingsItem text="{i18n>zzStatusZj3}" key="zzStatusZj3" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+			<ViewSettingsFilterItem id="CurrPhase" text="{i18n>currPhase}" key="CurrPhase">
+				<items>
+					<ViewSettingsItem text="{i18n>CurrPhase1}" key="CurrPhase1" />
+					<ViewSettingsItem text="{i18n>CurrPhase2}" key="CurrPhase2" />
+					<ViewSettingsItem text="{i18n>CurrPhase3}" key="CurrPhase3" />
+					<ViewSettingsItem text="{i18n>CurrPhase4}" key="CurrPhase4" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+			<ViewSettingsFilterItem id="source" text="{i18n>source}" key="source">
+				<items>
+					<ViewSettingsItem text="{i18n>source1}" key="source1" />
+					<ViewSettingsItem text="{i18n>source2}" key="source2" />
+					<ViewSettingsItem text="{i18n>source3}" key="source3" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+			<ViewSettingsFilterItem id="expectEndDate" text="{i18n>expectEndDate}" key="expectEndDate">
+				<items>
+					<ViewSettingsItem text="{i18n>expectEndDate1}" key="expectEndDate1" />
+					<ViewSettingsItem text="{i18n>expectEndDate2}" key="expectEndDate2" />
+					<ViewSettingsItem text="{i18n>expectEndDate3}" key="expectEndDate3" />
+					<ViewSettingsItem text="{i18n>expectEndDate4}" key="expectEndDate4" />
+					<ViewSettingsItem text="{i18n>expectEndDate5}" key="expectEndDate5" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+			<ViewSettingsFilterItem id="zzfld00001gDate" text="{i18n>zzfld00001gDate}" key="zzfld00001gDate">
+				<items>
+					<ViewSettingsItem text="{i18n>expectEndDate1}" key="zzfld00001gDate1" />
+					<ViewSettingsItem text="{i18n>expectEndDate2}" key="zzfld00001gDate2" />
+					<ViewSettingsItem text="{i18n>expectEndDate3}" key="zzfld00001gDate3" />
+					<ViewSettingsItem text="{i18n>expectEndDate4}" key="zzfld00001gDate4" />
+					<ViewSettingsItem text="{i18n>expectEndDate5}" key="zzfld00001gDate5" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+			<ViewSettingsFilterItem id="other" text="{i18n>other}" key="other">
+				<items>
+					<ViewSettingsItem text="{i18n>other1}" key="other1" />
+					<ViewSettingsItem text="{i18n>other2}" key="other2" />
+					<ViewSettingsItem text="{i18n>other3}" key="other3" />
+				</items>
+			</ViewSettingsFilterItem>
+			
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>
