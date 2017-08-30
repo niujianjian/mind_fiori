@@ -1,0 +1,121 @@
+[{
+	"Guid": "e46e4bec-ac2e-4ed5-9a87-e6192fb8f309",
+	"Listcode": "Listcode 1",
+	"Zzfld00006b": "Zzfld00006b 1",
+	"Zzfld00004u": "Zzfld00004u 1",
+	"Zzfld00004t": "Zzfld00004t 1",
+	"Zzfld0000b8": 5177.98,
+	"Currency": "Currency 1",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'b901bb99-7fa4-46bb-9204-68daaee424cc')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "b9d2b05f-100d-43ef-ae7d-573492e29a01",
+	"Listcode": "Listcode 2",
+	"Zzfld00006b": "Zzfld00006b 2",
+	"Zzfld00004u": "Zzfld00004u 2",
+	"Zzfld00004t": "Zzfld00004t 2",
+	"Zzfld0000b8": 2831.45,
+	"Currency": "Currency 2",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'b99ed6a4-af9c-442a-b6c8-0f78f6416c9a')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "16e52855-8e69-4551-9ad2-2eed5e4ebe7a",
+	"Listcode": "Listcode 3",
+	"Zzfld00006b": "Zzfld00006b 3",
+	"Zzfld00004u": "Zzfld00004u 3",
+	"Zzfld00004t": "Zzfld00004t 3",
+	"Zzfld0000b8": 7939.72,
+	"Currency": "Currency 3",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'838ac9b4-f6f7-43d4-9096-81806fb7604f')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "bd8b3a20-f387-4d64-9f43-4a235872a936",
+	"Listcode": "Listcode 4",
+	"Zzfld00006b": "Zzfld00006b 4",
+	"Zzfld00004u": "Zzfld00004u 4",
+	"Zzfld00004t": "Zzfld00004t 4",
+	"Zzfld0000b8": 55.64,
+	"Currency": "Currency 4",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'6a37eecb-9a0f-4a9e-837f-515312f68a5b')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "bc3e2932-7c45-4122-b4a0-b49e90a9390e",
+	"Listcode": "Listcode 5",
+	"Zzfld00006b": "Zzfld00006b 5",
+	"Zzfld00004u": "Zzfld00004u 5",
+	"Zzfld00004t": "Zzfld00004t 5",
+	"Zzfld0000b8": 8773.9,
+	"Currency": "Currency 5",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'1754b3ee-ba47-4fb9-83a0-715d46eb9dce')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "1d39805a-5fa7-43f3-8306-40ea8707967b",
+	"Listcode": "Listcode 6",
+	"Zzfld00006b": "Zzfld00006b 6",
+	"Zzfld00004u": "Zzfld00004u 6",
+	"Zzfld00004t": "Zzfld00004t 6",
+	"Zzfld0000b8": 2593.64,
+	"Currency": "Currency 6",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'e4028dd4-5a81-4049-9eb0-35b8c9b292dc')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "be3dce17-fc07-46d1-aed0-2a5b144bc471",
+	"Listcode": "Listcode 7",
+	"Zzfld00006b": "Zzfld00006b 7",
+	"Zzfld00004u": "Zzfld00004u 7",
+	"Zzfld00004t": "Zzfld00004t 7",
+	"Zzfld0000b8": 9657.42,
+	"Currency": "Currency 7",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'f4a4c991-b5f8-4298-ad94-8064e0ad0584')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "ef6e1c50-d0f8-4fe4-a4ac-d6c0a1a0babf",
+	"Listcode": "Listcode 8",
+	"Zzfld00006b": "Zzfld00006b 8",
+	"Zzfld00004u": "Zzfld00004u 8",
+	"Zzfld00004t": "Zzfld00004t 8",
+	"Zzfld0000b8": 4713.76,
+	"Currency": "Currency 8",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'c3d15e00-0f63-4f40-9d15-067c3c9aa441')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "f6eaf8bf-0ec5-4eb5-83b5-7cb83bd21884",
+	"Listcode": "Listcode 9",
+	"Zzfld00006b": "Zzfld00006b 9",
+	"Zzfld00004u": "Zzfld00004u 9",
+	"Zzfld00004t": "Zzfld00004t 9",
+	"Zzfld0000b8": 1027.87,
+	"Currency": "Currency 9",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'ff410f92-e2bd-4fd4-9b5a-6673a6bc398c')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}, {
+	"Guid": "f6db7e20-c6a2-4938-b135-c0e2a321a1fd",
+	"Listcode": "Listcode 10",
+	"Zzfld00006b": "Zzfld00006b 10",
+	"Zzfld00004u": "Zzfld00004u 10",
+	"Zzfld00004t": "Zzfld00004t 10",
+	"Zzfld0000b8": 6582.86,
+	"Currency": "Currency 10",
+	"__metadata": {
+		"uri": "ZOPP_ANALYSISSet(guid'a88dcaf8-91f9-4fd5-a03d-bb6b2339edad')",
+		"type": "ZSALE_ODATA_01_SRV.ZOPP_ANALYSIS"
+	}
+}]

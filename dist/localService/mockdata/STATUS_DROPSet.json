@@ -1,0 +1,89 @@
+[{
+	"Key": "PARTNER",
+	"Value": "PartnerFct 1",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%201')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "PARTNER",
+	"Value": "PartnerFct 2",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%202')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "STAT_USER",
+	"Value": "Value 3",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%203')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "STAT_USER",
+	"Value": "Value 4",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%204')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "SOURCE",
+	"Value": "Value 5",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%205')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "SOURCE",
+	"Value": "Value 6",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%206')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "SALES_GROUP",
+	"Value": "Value 7",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%207')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "SALES_GROUP",
+	"Value": "Value 8",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%208')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "CURR_PHASE",
+	"Value": "CurrPhase 1",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%209')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "CURR_PHASE",
+	"Value": "CurrPhase 2",
+	"__metadata": {
+		"uri": "STATUS_DROPSet('Key%2010')",
+		"type": "ZSALE_ODATA_01_SRV.STATUS_DROP"
+	}
+}, {
+	"Key": "LISTCODE",
+	"Value": "Value 11"
+}, {
+	"Key": "LISTCODE",
+	"Value": "Value 12"
+}, {
+	"Key": "ZZFLD0000F4",
+	"Value": "Value 13"
+}, {
+	"Key": "ZZFLD0000F4",
+	"Value": "Value 14"
+}, {
+	"Key": "ZZ_STATUS_ZJ",
+	"Value": "Value 15"
+}, {
+	"Key": "ZZ_STATUS_ZJ",
+	"Value": "Value 16"
+}]

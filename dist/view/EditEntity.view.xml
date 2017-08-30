@@ -1,0 +1,221 @@
+<mvc:View controllerName="com.mindray.oppprt.controller.EditEntity" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form"
+	xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic"
+	xmlns:smart="sap.ui.comp.smartfield" xmlns="sap.m">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" title="{viewModel>/viewTitle}" busy="{viewModel>/busy}">
+		<semantic:content>
+			<Panel id="Panel1" expandable="true" expanded="false" headerText="{i18n>iconTabBarInfo2}" width="auto" class="sapUiResponsiveMargin">
+				<f:SimpleForm class="editableForm" id="newEntityForm1" labelSpanL="3" labelSpanM="3" layout="ResponsiveGridLayout" maxContainerCols="2"
+					minWidth="1024">
+					<f:content>
+						<Label text="{i18n>opportnName}"/>
+						<Text text="{Description}" visible="{= ${viewModel>/mode} === 'edit'? true: false}"/>
+						<Input visible="{= ${viewModel>/mode} === 'create'? true: false}" liveChange="_validateSaveEnablement" showValueHelp="true"
+							valueHelpRequest="partnerValueHelp"/>
+						<Label text="{i18n>objectId}"/>
+						<Text text="{ObjectId}" visible="{= ${viewModel>/mode} === 'edit'? true: false}"/>
+						<Label text="{i18n>zzfld00002a}" required="true"/>
+						<Select id="Zzfld00002a_id" enabled="false" forceSelection="false" selectedKey="{path:'Zzfld00002a',formatter:'.checkSdtype'}" autoAdjustWidth="true" 
+							items="{path: '/STATUS_DROPSet',templateShareable:false, filters:[{path : 'Key',operator : 'EQ',value1: 'SALES_GROUP'}]}">
+							<core:Item key="{Key}" text="{Value}"/>
+						</Select>
+						<Label text="{i18n>source}" required="true"/>
+						<Select id="source_id" forceSelection="false" selectedKey="{Source}" autoAdjustWidth="true" change="_validateSaveEnablement" enabled="{viewModel>/enableEdit}"
+							items="{path: '/STATUS_DROPSet', templateShareable:false,filters:[{path : 'Key',operator : 'EQ',value1: 'SOURCE'}]}">
+							<core:Item key="{Key}" text="{Value}"/>
+						</Select>
+						<Label text="{i18n>currPhase}" required="true"/>
+						<Select id="currPhase_id" forceSelection="false" selectedKey="{CurrPhase}" autoAdjustWidth="true" change="_setDefaultValue" enabled="{viewModel>/enableEdit}"
+							items="{path: '/STATUS_DROPSet', templateShareable:false,filters:[{path : 'Key',operator : 'EQ',value1: 'CURR_PHASE'}]}">
+							<core:Item key="{Key}" text="{Value}"/>
+						</Select>
+						<Label text="{i18n>statUser}" required="true"/>
+						<Select id="statUser_id" forceSelection="false" selectedKey="{path:'StatUser',formatter:'.checkEdit'}" autoAdjustWidth="true"
+							change="_statUserChanged" enabled="{viewModel>/enableEdit}"
+							items="{path: '/STATUS_DROPSet',templateShareable:false,filters:[{path : 'Key',operator : 'EQ',value1: 'STAT_USER'}]}">
+							<core:Item key="{Key}" text="{Value}"/>
+						</Select>
+						<Label text="{i18n>probability}"/>
+						<Input id="probability_id" valueLiveUpdate="true" liveChange="_validateSaveEnablement" description="%" type="Number" enabled="{viewModel>/enableEdit}"
+							value="{ path: 'Probability', type: 'sap.ui.model.odata.type.String' , constraints:{ maxLength:3, nullable:false } }"/>
+						<Label text="{i18n>expectEnd}" required="true"/>
+						<DatePicker id="expectEnd_id" enabled="{viewModel>/enableEdit}"
+							value="{ path: 'ExpectEnd', type: 'sap.ui.model.type.Date',formatOptions: {pattern: 'yyyy/MM/dd', strictParsing: true , UTC: true}}"
+							change="_validateSaveEnablement"/>
+						<Label text="{i18n>zzfld00001g}" required="true"/>
+						<DatePicker id="zzfld00001g_id"
+							value="{ path: 'Zzfld00001g', type: 'sap.ui.model.type.Date',formatOptions: {pattern: 'yyyy/MM/dd', strictParsing: true , UTC: true}}"
+							change="_validateSaveEnablement"/>
+						<Label text="{i18n>memo}"/>
+						<TextArea name="Memo" id="memo_id" enabled="{viewModel>/enableEdit}"
+							value="{ path: 'Memo', type: 'sap.ui.model.odata.type.String' , constraints:{ maxLength:255, nullable:false } }"/>
+					</f:content>
+				</f:SimpleForm>
+			</Panel>
+			<Panel id="Panel2" expandable="true" expanded="false" headerText="{i18n>iconTabBarInfo1}" width="auto" class="sapUiResponsiveMargin">
+				<f:Form id="newEntityForm2" editable="false">
+					<f:layout>
+						<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+							emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+					</f:layout>
+					<f:formContainers>
+						<f:FormContainer>
+							<f:formElements>
+								<f:FormElement label="{i18n>listCode}">
+									<f:fields>
+										<Select id="listCode_id" forceSelection="false" selectedKey="{Listcode}" autoAdjustWidth="true" enabled="{viewModel>/enableEdit}"
+											items="{path: '/STATUS_DROPSet',templateShareable:false,filters:[{path : 'Key',operator : 'EQ',value1: 'LISTCODE'}]}">
+											<core:Item key="{Key}" text="{Value}"/>
+										</Select>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="{i18n>zzfld00006b}">
+									<f:fields>
+										<Input name="Zzfld00006b" id="zzfld00006b_id" valueLiveUpdate="true" enabled="{viewModel>/enableEdit}"
+											value="{ path: 'Zzfld00006b', type: 'sap.ui.model.odata.type.String' , constraints:{ maxLength:20, nullable:false } }"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="{i18n>zzfld00004u}">
+									<f:fields>
+										<Input id="zzfld00004u_id" valueLiveUpdate="true" enabled="{viewModel>/enableEdit}"
+											value="{ path: 'Zzfld00004u', type: 'sap.ui.model.odata.type.String' , constraints:{ maxLength:20, nullable:false } }"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="{i18n>zzfld00004t}">
+									<f:fields>
+										<Input id="zzfld00004t_id" valueLiveUpdate="true" enabled="{viewModel>/enableEdit}"
+											value="{ path: 'Zzfld00004t', type: 'sap.ui.model.odata.type.String' , constraints:{ maxLength:20, nullable:false } }"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="{i18n>zzfld0000b8}">
+									<f:fields>
+										<Input valueLiveUpdate="true" id="zzfld0000b8_id" enabled="{viewModel>/enableEdit}"
+											value="{ path: 'Zzfld0000b8', type: 'sap.ui.model.odata.type.Decimal' , constraints:{ maxLength:13, nullable:false } }"/>
+									</f:fields>
+								</f:FormElement>
+							</f:formElements>
+						</f:FormContainer>
+					</f:formContainers>
+				</f:Form>
+			</Panel>
+			<Panel id="Panel3" expandable="true" expanded="false" headerText="{i18n>iconTabBarInfo3}" width="auto" class="sapUiResponsiveMargin">
+				<ScrollContainer horizontal="false" vertical="true" height="100%" width="100%">
+					<Table id="lineItemsList" width="auto" items="{path:'tableView1>/results',templateShareable:false}"
+						noDataText="{i18n>detailLineItemTableNoDataText}" busyIndicatorDelay="{detailView>/lineItemTableDelay}"
+						class="sapUiNoMarginTop sapUiNoMarginBottom sapUiNoMarginBegin sapUiNoMarginEnd">
+						<headerToolbar>
+							<OverflowToolbar>
+								<Title text="{i18n>producDetailTitle}" level="H2"/>
+								<ToolbarSpacer/>
+								<OverflowToolbarButton icon="sap-icon://add" id="addButton" type="Transparent" press="onAddProduct" text="Add" visible="{viewModel>/enableEdit}"/>
+							</OverflowToolbar>
+						</headerToolbar>
+						<columns>
+							<Column>
+								<Text text="{i18n>prodHierDescr}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true">
+								<Text text="{i18n>zzconfNote}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true">
+								<Text text="{i18n>netValueMan}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true">
+								<Text text="{i18n>zzfld0000f4}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true" visible="{viewModel>/sdtypeHide}">
+								<Text text="{i18n>ZzSdtype}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true">
+								<Text text="{i18n>zzContacter}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true">
+								<Text text="{i18n>zzfld0000gg}"/>
+							</Column>
+							<Column hAlign="Right">
+								<Text text="{i18n>itemNum}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right"/>
+							<Column visible="false" minScreenWidth="Medium" demandPopin="true" hAlign="Right"/>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<ObjectIdentifier title="{tableView1>ProdHierDescr}"/>
+									<Input value="{tableView1>ZzconfNote}" enabled="{viewModel>/enableEdit}"/>
+									<Input value="{tableView1>NetValueMan}" description="{i18n>currency}" enabled="{viewModel>/enableEdit}"/>
+									<Select forceSelection="false" selectedKey="{tableView1>Zzfld0000f4}" enabled="{viewModel>/enableEdit}" 
+										items="{path: '/STATUS_DROPSet',templateShareable:false,filters:[{path : 'Key',operator : 'EQ',value1: 'ZZFLD0000F4'}]}">
+										<core:Item key="{Key}" text="{Value}"/>
+									</Select>
+									<Select forceSelection="false" selectedKey="{tableView1>ZzSdtype}" enabled="{viewModel>/enableEdit}" visible="{viewModel>/sdtypeHide}"
+										items="{path: '/STATUS_DROPSet',templateShareable:false,filters:[{path : 'Key',operator : 'EQ',value1: 'SDTYPE'}]}">
+										<core:Item key="{Key}" text="{Value}"/>
+									</Select>
+									<Input value="{tableView1>ZzContacter}" enabled="{viewModel>/enableEdit}"/>
+									<Input value="{tableView1>Zzfld0000gg}" type="Number" enabled="{viewModel>/enableEdit}"/>
+									<Input value="{path:'tableView1>ItemNum',type: 'sap.ui.model.type.Integer'}" type="Number"  description="{i18n>itemNumUnit}" 
+									liveChange="_validateCalculatePrice" enabled="{viewModel>/enableEdit}"/>
+									<Button icon="sap-icon://delete" press="onRemoveProduct" visible="{viewModel>/enableEdit}"/>
+									<Input visible="false" value="{tableView1>Price}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</ScrollContainer>
+			</Panel>
+			<Panel id="Panel4" expandable="true" expanded="false" headerText="{i18n>iconTabBarInfo4}" width="auto" class="sapUiResponsiveMargin">
+				<ScrollContainer horizontal="false" vertical="true" height="100%" width="100%">
+					<Table id="linePartnerList" width="auto" items="{path:'tableView2>/results',templateShareable:false}"
+						noDataText="{i18n>detailPartnerTableNoDataText}" busyIndicatorDelay="{detailView>/lineItemTableDelay}"
+						class="sapUiNoMarginTop sapUiNoMarginBottom sapUiNoMarginBegin sapUiNoMarginEnd">
+						<headerToolbar>
+							<OverflowToolbar>
+								<Title text="{i18n>partnerDetailTitle}" level="H2"/>
+								<ToolbarSpacer/>
+								<OverflowToolbarButton icon="sap-icon://add" type="Transparent" press="onAddPartner" text="Add" visible="{viewModel>/enableEdit}"/>
+							</OverflowToolbar>
+						</headerToolbar>
+						<columns>
+							<Column width="12em"></Column>
+							<Column hAlign="Right"></Column>
+							<Column minScreenWidth="Tablet" demandPopin="true">
+								<Text text="{i18n>PartnerNo1}"/>
+							</Column>
+							<Column minScreenWidth="Medium" demandPopin="true" hAlign="Right"/>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<Select enabled="false" forceSelection="false" selectedKey="{tableView2>PartnerFct}" autoAdjustWidth="true"
+										items="{path: '/STATUS_DROPSet', templateShareable:true,filters:[{path : 'Key',operator : 'EQ',value1: 'PARTNER'}]}">
+										<core:Item key="{Key}" text="{Value}"/>
+									</Select>
+									<Input id="partnerInput" type="Text" enabled="{path:'tableView2>PartnerFct',formatter:'.check'}" showValueHelp="true"
+										valueHelpRequest="partnerValueHelp" value="{tableView2>McName1}"/>
+									<Text id="partnerNo1_Id" text="{tableView2>PartnerNo1}"/>
+									<Button icon="sap-icon://delete" press="onRemovePartner" visible="{path:'tableView2>PartnerFct',formatter:'.checkDelete'}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</ScrollContainer>
+			</Panel>
+		</semantic:content>
+		<!--<semantic:saveAction>-->
+		<!--	<semantic:SaveAction id="save" enabled="{viewModel>/enableCreate}" press="onSave"/>-->
+		<!--</semantic:saveAction>-->
+		<!--<semantic:cancelAction>-->
+		<!--	<semantic:CancelAction id="cancel" press="onCancel"></semantic:CancelAction>-->
+		<!--</semantic:cancelAction>-->
+		<semantic:customFooterContent>
+			<Button id="Message" visible="flase" icon="sap-icon://message-popup" text="{viewModel>/messageCount}" type="Emphasized"
+				press="handleMessagePopoverPress"/>
+			<ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/>
+			<ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/>
+			<ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/><ToolbarSpacer/>
+			<Button id="save" text="{i18n>save}" type="Emphasized" press="onSave"/>
+			<ToolbarSpacer/>
+			<Button id="cancel" text="{i18n>cancel}" type="Emphasized" press="onCancel"/>
+		</semantic:customFooterContent>
+	</semantic:DetailPage>
+</mvc:View>

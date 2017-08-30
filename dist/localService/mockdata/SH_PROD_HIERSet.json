@@ -1,0 +1,81 @@
+[{
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 1",
+	"Price": 5410.77,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%201',ProductId='ProductId%201')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 2",
+	"Price": 3604.92,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%202',ProductId='ProductId%202')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 3",
+	"Price": 1798.77,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%203',ProductId='ProductId%203')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 4",
+	"Price": 7481.75,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%204',ProductId='ProductId%204')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 5",
+	"Price": 8776.63,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%205',ProductId='ProductId%205')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 6",
+	"Price": 5885.25,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%206',ProductId='ProductId%206')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 7",
+	"Price": 2350.87,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%207',ProductId='ProductId%207')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 8",
+	"Price": 1476.75,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%208',ProductId='ProductId%208')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 9",
+	"Price": 1616.71,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%209',ProductId='ProductId%209')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}, {
+	"HierarchyId": "HierarchyId 1",
+	"ProductId": "ProductId 10",
+	"Price": 7159.75,
+	"__metadata": {
+		"uri": "SH_PROD_HIERSet(HierarchyId='HierarchyId%2010',ProductId='ProductId%2010')",
+		"type": "ZSALE_ODATA_01_SRV.SH_PROD_HIER"
+	}
+}]

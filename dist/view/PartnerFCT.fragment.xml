@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog title="{i18n>iconTabBarInfo4}" class="sapUiPopupWithPadding" items="{path: '/SH_PARTNERSet'}" search="_partnerValueHelpSearch"
+		confirm="_partnerValueHelpClose" cancel="_partnerValueHelpClose">
+		<StandardListItem iconDensityAware="false" iconInset="false" title="{NameOrg1}" description="{Partner}"/>
+	</SelectDialog>
+</core:FragmentDefinition>

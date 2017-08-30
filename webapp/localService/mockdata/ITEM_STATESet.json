@@ -1,0 +1,91 @@
+[{
+	"OppGuidH": "4c2490ff-f85f-404a-b61f-26e74602b4fa",
+	"OppGuidI": "69d38112-a574-4de4-9f0f-920d2ccd0c55",
+	"ProductId": "ProductId 1",
+	"Zz0010": "/Date(1050676169000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'4c2490ff-f85f-404a-b61f-26e74602b4fa',OppGuidI=guid'69d38112-a574-4de4-9f0f-920d2ccd0c55')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "3a126e79-87f6-40c5-b22f-68bdee8a68a3",
+	"OppGuidI": "8e416e40-9578-43b2-89ac-908460711fda",
+	"ProductId": "ProductId 2",
+	"Zz0010": "/Date(1347632969000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'3a126e79-87f6-40c5-b22f-68bdee8a68a3',OppGuidI=guid'8e416e40-9578-43b2-89ac-908460711fda')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "bf63b26e-ed8f-4571-9238-11a07e9b872c",
+	"OppGuidI": "493b1dd3-e0a7-4db7-9753-7a805ada0c1c",
+	"ProductId": "ProductId 3",
+	"Zz0010": "/Date(993479369000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'bf63b26e-ed8f-4571-9238-11a07e9b872c',OppGuidI=guid'493b1dd3-e0a7-4db7-9753-7a805ada0c1c')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "aafb3fe2-19bb-428c-9006-803602c8271b",
+	"OppGuidI": "994fd3cd-872c-4bce-98d6-b2fc64062ff8",
+	"ProductId": "ProductId 4",
+	"Zz0010": "/Date(1266935369000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'aafb3fe2-19bb-428c-9006-803602c8271b',OppGuidI=guid'994fd3cd-872c-4bce-98d6-b2fc64062ff8')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "bbb16634-81ff-4316-8498-447a345c0c6f",
+	"OppGuidI": "55a33264-d706-491d-96f7-6e66c134eca5",
+	"ProductId": "ProductId 5",
+	"Zz0010": "/Date(1139063369000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'bbb16634-81ff-4316-8498-447a345c0c6f',OppGuidI=guid'55a33264-d706-491d-96f7-6e66c134eca5')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "f930bf4e-8fd9-49aa-809c-2a202504b73e",
+	"OppGuidI": "29606e06-092c-4b1e-b7ed-616713511a06",
+	"ProductId": "ProductId 6",
+	"Zz0010": "/Date(1046010569000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'f930bf4e-8fd9-49aa-809c-2a202504b73e',OppGuidI=guid'29606e06-092c-4b1e-b7ed-616713511a06')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "af890dcd-5a48-4c50-8568-d688cc7870ae",
+	"OppGuidI": "697cfc73-0666-4ca2-8674-fa4d3c107a35",
+	"ProductId": "ProductId 7",
+	"Zz0010": "/Date(1153146569000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'af890dcd-5a48-4c50-8568-d688cc7870ae',OppGuidI=guid'697cfc73-0666-4ca2-8674-fa4d3c107a35')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "d49a6889-85c4-4f21-bfe7-013979cbf723",
+	"OppGuidI": "fea22e72-8c8e-4609-a786-4927cca638c8",
+	"ProductId": "ProductId 8",
+	"Zz0010": "/Date(1491575369000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'd49a6889-85c4-4f21-bfe7-013979cbf723',OppGuidI=guid'fea22e72-8c8e-4609-a786-4927cca638c8')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "acd80089-55cd-4c22-9dae-0b82ef25ee3b",
+	"OppGuidI": "edac3558-5dc6-4e7b-82d4-96029c689dd2",
+	"ProductId": "ProductId 9",
+	"Zz0010": "/Date(1322144969000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'acd80089-55cd-4c22-9dae-0b82ef25ee3b',OppGuidI=guid'edac3558-5dc6-4e7b-82d4-96029c689dd2')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}, {
+	"OppGuidH": "6ab907b4-a47d-4b5c-9133-ced8f2730045",
+	"OppGuidI": "26f4a361-038f-4449-8a8a-8ca0d1830879",
+	"ProductId": "ProductId 10",
+	"Zz0010": "/Date(1296397769000)/",
+	"__metadata": {
+		"uri": "ITEM_STATESet(OppGuidH=guid'6ab907b4-a47d-4b5c-9133-ced8f2730045',OppGuidI=guid'26f4a361-038f-4449-8a8a-8ca0d1830879')",
+		"type": "ZSALE_ODATA_01_SRV.ITEM_STATE"
+	}
+}]
